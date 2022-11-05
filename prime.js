@@ -1,15 +1,16 @@
 function checkPrime(n){
 
-  for(let i=0;i<=num;i++){
+  for(let i=2;i<=n**0.5;i++){
 
-       if(num%i!=0){
+       if(n%i==0){
 
-   return true;
-
-}
-   else{
-
-    return false
+   return false;
 
 }
-checkPrime(21);
+   
+
+    return true
+
+}
+}
+console.log(checkPrime(13));
